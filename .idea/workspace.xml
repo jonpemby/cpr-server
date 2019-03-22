@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d74167b-1df7-46b5-a7db-701e0879b30c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fixtures/PortConfig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/line.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jonpemby.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/file.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/parser.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/token.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/line.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser.rs" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
+            <state relative-caret-position="961">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -34,43 +36,34 @@
         <entry file="file://$PROJECT_DIR$/fixtures/PortConfig.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parser.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/line.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2936">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding>
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib.rs">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config/mod.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cargo.toml">
+        <entry file="file://$PROJECT_DIR$/src/config/token.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -101,9 +94,14 @@
         <option value="$PROJECT_DIR$/src/main.rs" />
         <option value="$PROJECT_DIR$/fixtures/Sample.yaml" />
         <option value="$PROJECT_DIR$/Cargo.toml" />
-        <option value="$PROJECT_DIR$/src/lib.rs" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/parser.rs" />
         <option value="$PROJECT_DIR$/src/line.rs" />
+        <option value="$PROJECT_DIR$/src/lib.rs" />
+        <option value="$PROJECT_DIR$/src/config/parser.rs" />
+        <option value="$PROJECT_DIR$/src/config/file.rs" />
+        <option value="$PROJECT_DIR$/src/config/token.rs" />
+        <option value="$PROJECT_DIR$/src/config/mod.rs" />
       </list>
     </option>
   </component>
@@ -120,14 +118,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="coproc" type="b2602c69:ProjectViewProjectNode" />
               <item name="coproc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coproc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coproc" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coproc" type="b2602c69:ProjectViewProjectNode" />
@@ -139,6 +142,12 @@
               <item name="coproc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="coproc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coproc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -146,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553269411870" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553289765120" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -208,41 +217,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_coproc - 2019.03.21 at 13h 25m 38s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 05m 54s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.21 at 16h 23m 05s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 09m 19s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.21 at 16h 26m 19s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 10m 28s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.21 at 16h 48m 14s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 21m 30s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.21 at 16h 58m 55s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 23m 27s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.21 at 17h 00m 18s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 25m 04s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.22 at 10h 18m 35s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 38m 14s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.22 at 10h 20m 19s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 39m 41s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.22 at 10h 21m 19s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 15h 44m 28s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_coproc - 2019.03.22 at 10h 24m 58s.xml">
+    <history-entry file="Test_coproc - 2019.03.22 at 16h 12m 11s.xml">
       <configuration name="Test coproc" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24964029" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24927954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,7 +260,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43137255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43098593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,43 +287,97 @@
     <entry file="file://$PROJECT_DIR$/parser/src/lib.rs" />
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
+        <state relative-caret-position="961">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1956" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cargo.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        <state relative-caret-position="186">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib.rs">
+    <entry file="file://$PROJECT_DIR$/src/parser.rs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser.rs">
+    <entry file="file://$PROJECT_DIR$/src/line.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="447">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixtures/PortConfig.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/line.rs">
+    <entry file="file://$PROJECT_DIR$/src/lib.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2936">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/file.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/parser.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2480">
+          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
           <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/token.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
