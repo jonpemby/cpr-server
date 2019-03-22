@@ -1,5 +1,6 @@
 use std::net::{TcpListener, TcpStream};
 use std::io::Read;
+//use std::collections::HashMap;
 
 const TEST_COMMAND: &str = "test";
 
